@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+#payment-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.payment-details {
+    margin-bottom: 20px;
+}
+
+#payment-status {
+    display: none;
+    margin-top: 10px;
+}
+
+.processing {
+    color: #f39c12;
+}
+
+.success {
+    color: green;
+}
+
+.failure {
+    color: red;
+}
